@@ -62,8 +62,9 @@ module.exports = _.merge({
              * You should update this section with some test input for testing your module
              */
             input: {
-                //Replace VAR1 with the name of an expected input, and add more inputs as needed.
-                VAR1: 'foo'
+                keyword_link: 'http://bitly.is/18H1ET',
+                target_link: 'http://google.com/',
+                overwrite: true
             }
         }
     }

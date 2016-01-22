@@ -4,23 +4,44 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "keyword_link",
+            "title":"Custom Link"
+        },
+        {
+            "id": "target_link",
+            "title":"Target Link"
+        },
+        {
+            "id": "overwrite",
+            "title":"Overwrite?"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "keyword_link",
+            "title":"Custom Link"
+        },
+        {
+            "id": "target_link",
+            "title":"Target Link"
+        },
+        {
+            "id": "aggregate_link",
+            "title":"Aggregate Bitlink"
+        },
+        {
+            "id": "is_new",
+            "title":"New Link?"
+        },
+        {
+            "id": "deeplinks",
+            "title":"Deep Links"
         }
-      */
     ],
+    "providers": [{
+        "name": "bitly"
+    }],
     "title": "Bitly: Save Custom Bitlink" /* Required.A display name for the module */
 }
